@@ -6,6 +6,6 @@ def quick_sort(arr):
                [arr[0]] + \
                quick_sort([x for x in arr[1:] if x >= arr[0]])
 
-data_base = [333, 11, 110, 44, 0, -11, 377, 17, 9, 1000]
+data_base = [0, 1000, -77, 18, 9, 512]
 print(quick_sort(data_base))
 
